@@ -3,8 +3,7 @@
  /* for FF */
 	-moz-appearance: none;
 	text-indent: 0.01px; 
-	-o-text-overflow: ''; 
-	   text-overflow: '';
+	text-overflow: '';
 	/* for IE */
 	-ms-appearance: none;
 	appearance: none!important;

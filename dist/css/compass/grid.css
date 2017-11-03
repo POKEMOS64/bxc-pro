@@ -357,7 +357,7 @@ nav ul li a {
   padding-bottom: 3px;
   padding-bottom: 0.32rem;
 }
-nav ul li a:active {
+nav ul li a.active {
   border-bottom: 4px solid #00a7f0;
 }
 nav ul li a:hover {
