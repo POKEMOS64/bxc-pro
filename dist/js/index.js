@@ -7,3 +7,15 @@ $('nav .middle li a').each(function () {
         }
     });
 });
+$(function(){
+	$('.click').click(function(){
+		$("nav ul.middle").addClass("nova");
+		$(".click").addClass("none");
+		$(".click_close").addClass("nova");
+	});
+	$('.click_close').click(function(){
+		$("nav ul.middle").removeClass("nova");
+		$(".click").removeClass("none");
+		$(".click_close").removeClass("nova");
+	});
+});
